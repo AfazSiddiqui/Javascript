@@ -1,0 +1,35 @@
+// function divide (x, y) {
+//     return x*y;
+// }
+
+// console.log (divide(3,4))
+
+
+
+// let call = (a, b) => {
+//     return (a/b)
+// }
+
+// console.log (call(16,4))
+// console.log (call(16,2))
+// console.log (call(81,9))
+
+
+
+// let bet = () => {
+// console.log ("Don't call me")
+// }
+
+// bet();
+
+
+
+// let soul = n => document.write ("Are you there?")
+
+// soul();
+
+
+
+// const question = (name, end) => "How are You " + name + end
+
+// console.log (question('Afaz? ', 'I hope you are doing great!'))
