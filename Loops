@@ -1,8 +1,10 @@
+// For Loop
+
 // let sum = 0
 // let n = prompt("Enter the value of n")
 // n = Number.parseInt (n)
 // for (i = 0, i < n, i++) {
-// sum += (i+1)      //--------> question
+// sum += (i+1)     //--------> question
 // }
 
 // console.log("Sum of first" + n + "natural number is" + sum +)
@@ -17,11 +19,75 @@
 //     Toshiba: 50000
 // }
 
+
+// // For in Loop
+
 // for (let a in obj){
-//     console.log("Price of " + a + " is " + obj[a])
+//     // console.log("Price of " + a + " is " + obj[a])
+//     console.log("Price of " + "Dell" + " is " + obj["Dell"])
 // }
 
 
 
-// for ( let b of "macbook")
+// For of Loop
+
+// for ( let b of "macbook")    // object must be an iterate (array or a string)
 // console.log(b)
+// // console.log(b.indexOf(b))
+// // console.log(b.indexOf)
+
+
+
+// while Loop
+
+
+// let n = prompt("Enter the value of n")
+// n = Number.parseInt(n)
+
+// let i = 0
+// while (i<n){
+//     console.log(i)
+//     i++
+// }
+
+
+// do while Loop
+
+// do {
+//     console.log(i)
+//     i++
+// } while(i<n)
+
+
+
+// let names = ["Afaz", "Anusha", "Wajeeha", "Ramsha", "Hamza", "Taha", "Hussain", "Najaf", "Yazah"]
+// let age = [23, 18, 19, 19, 18, 19, 18, 18, 20]
+// for (let index in names, age)
+// // console.log(names[index], age[index])
+// console.log(`My name is ` +(names[7])+ ` and i am ` +(age[7])+ ` years old`)
+
+/*
+let bio = {
+    Name: "Afaz",
+    Father: "Khalid",
+    Cast: "Siddiqui",
+    Age: 23,
+    Gender: "Male",
+    Height: "5'9",
+}
+
+let bio2 = {
+    Name: "Anusha",
+    Father: "Irfan",
+    Cast: "Vindhani",
+    Age: 18,
+    Gender: "Female",
+    Height: "5'4",
+}
+
+// Age = Number.parseInt(Age)
+// Height = Number.parseInt(Height)
+for (let key in bio2){
+    console.log(key,bio2[key])
+}
+*/
