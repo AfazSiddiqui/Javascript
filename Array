@@ -1,0 +1,97 @@
+// Array Methods
+
+// let num = [1, 2, 3, 4, 6, 7]
+// let b = num.toString() //Using toString to convert number into string
+// // console.log(typeof(b))
+
+// let c = num.join(" into ")
+// let d = num.join(" and ")
+// let e = num.join(" of")          //-----------> what's happening?
+// let f = num.join(" into")
+// // console.log(c)
+// console.log(c.indexOf(3))
+// console.log(d.indexOf(3))
+// console.log(e.indexOf(3))
+// console.log(f.indexOf(3))
+
+
+
+// let obj = [0, "a", 1, "b", 2, "c", 3, "d", 4, "e" ]   //-----------> why num first and alph last?
+// let a = obj.pop()
+// // let a = obj.sort()
+// console.log(a, obj)
+
+
+
+// let pars = [24, 25, 26, 26]
+// let a = pars.push(99)
+// console.log(a, pars)
+
+
+// let array = [1, 2, 3, 4, 5, 6]
+// let array_2 = [11, 12, 13, 14, 15]
+// let array_3 = [21, 22, 23, 24, 25, 26]
+
+// // array = Number.parseInt
+
+// console.log(typeof array)
+// let new_array = array.concat(array_2, array_3)
+// console.log(new_array, array, array_2, array_3)
+
+
+// let mod = [2, 28, 64, 22, 10, 3, 17, 99]
+// let x = (a, b) =>{
+//     return a-b
+// }
+// mod.sort(x)
+// // mod = Number.parseInt(mod)
+
+// console.log(mod)
+// console.log(typeof mod)
+
+
+// let c = [2, 28, 64, 22, 10, 3, 17, 99]
+// let v = c.slice(2, 5,)
+// console.log(c, v)
+
+
+// let fog = [22, 10, 3, 17, 99, 64, 72]
+// let num = fog.splice(0, 2, 909, 808, 707, 606)
+// console.log(fog, num)
+
+
+// let add = [22, 10, 3, 17, 99]
+// let a = add.map ((value , index, add)=>{
+// return (value + index), (value + add)       //-----------> what's happening?
+// })
+// console.log(a, add)
+
+
+
+// let noob = [12, 21, 22, 24, 30, 43, 56, 89]
+
+// let a2 = noob.filter((a) => {
+//  return a>30
+// })
+
+// console.log(noob, a2)
+
+
+
+// let array2 = [10, 20, 30, 40]
+// let ok = array2.reduce((a1, b1) => {
+//     return a1 + b1
+// })
+
+// console.log(ok)
+
+
+
+// let array_2 = [10, 20, 30, 40]
+// let re_duce = ((a1, b1) => {
+    
+//     return a1 * b1
+// })
+
+// let o_k = array_2.reduce(re_duce)
+// console.log(o_k)
